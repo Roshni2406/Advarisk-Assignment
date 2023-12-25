@@ -1,0 +1,10 @@
+Name,Locator,Locatorinfo,description
+ProductPage_product_header,xpath,//span[@class='title'],no comments
+ProductPage_menu_bar,xpath,//button[@id="react-burger-menu-btn"],no comments
+ProductPage_logout,xpath,//a[@id="logout_sidebar_link"],no comments
+ProductPage_products,xpath,//div[@class='inventory_list']/div/div[@class="inventory_item_description"]/div/a/div,no comments
+ProductsPage_add_to_cart_button,xpath,//*[@class="inventory_item_name " and text()="{PRODUCT}"]//parent::a//parent::div//following-sibling::div[@class="pricebar"]/button
+ProductPage_product_price,xpath,//*[@class="inventory_item_name " and text()="{PRODUCT}"]//parent::a//parent::div//following-sibling::div[@class="pricebar"]/div
+ProductsPage_remove_button,xpath,//*[@class="inventory_item_name " and text()="{PRODUCT}"]//parent::a//parent::div//following-sibling::div[@class="pricebar"]/button[text()="Remove"]
+ProductsPage_cart_button,xpath,//a[@class="shopping_cart_link"], no comments
+ProductsPage_cart_button_badge,xpath,//span[@class="shopping_cart_badge"],no comments

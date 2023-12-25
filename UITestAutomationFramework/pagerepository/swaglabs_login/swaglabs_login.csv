@@ -1,0 +1,6 @@
+Name,Locator,Locatorinfo,description
+LoginPage_username,xpath,//input[@id='user-name'],no comments
+LoginPage_password,xpath,//input[@id='password'],no comments
+LoginPage_login_button,xpath,//input[@id='login-button'],no comments
+LoginPage_error,xpath,//div[@class="error-message-container error"]/h3,no comments
+LoginPage_error_close_button,xpath,//button[@class="error-button"],no comments

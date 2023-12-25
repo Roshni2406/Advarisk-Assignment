@@ -1,0 +1,10 @@
+Name,Locator,Locatorinfo,description
+CheckoutPage_header,xpath,//span[@class="title"],no comments
+CheckoutPage_continue_button,xpath,//input[@name="continue"],no comments
+CheckoutPage_cancel_button,xpath,//button[@name="cancel"],no comments
+CheckoutPage_first_name,xpath,//input[@id="first-name"],no comments
+CheckoutPage_last_name,xpath,//input[@id="last-name"],no comments
+CheckoutPage_postal_code,xpath,//input[@id="postal-code"],no comments
+CheckoutPage_error_message,xpath,//div[@class="error-message-container error"]/h3
+CheckoutPage_finish_button,xpath,//button[@name='finish'],no comments
+CheckoutPage_thankyou_message,xpath,//h2[@class='complete-header'],no comments

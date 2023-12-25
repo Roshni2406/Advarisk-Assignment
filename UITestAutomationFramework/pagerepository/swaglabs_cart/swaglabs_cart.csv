@@ -1,0 +1,7 @@
+Name,Locator,Locatorinfo,description
+CartPage_header,xpath,//span[@class="title"],no comments
+CartPage_continue_shopping_button,xpath,//button[@name="continue-shopping"],no comments
+CartPage_checkout_button,xpath,//button[@name="checkout"],no comments
+CartPage_cart_item,xpath,//div[@class="cart_list"]/div[@class="cart_item"]/div/a/div,no comments
+CartPage_remove_button,xpath,//*[@class="inventory_item_name" and text()="{PRODUCT}"]//parent::a//parent::div//following-sibling::div[@class="item_pricebar"]/button[text()="Remove"]
+CartPage_cart_item_single,xpath,//div[@class="cart_list"]/div[@class="cart_item"]/div/a/div[text()="{PRODUCT}"]
